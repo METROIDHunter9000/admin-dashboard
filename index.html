@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard</title>
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="search">
+        <img width="20px" src="svg/search.svg" class="svg_icon">
+        <input type="text" id="search_bar" name="search_bar" placeholder="Looking for something?">
+      </div> 
+      <div class="profile_header">
+        <img width=20px src="svg/bell.svg" class="svg_icon">
+        <img src="img/profile.png" class="profile_photo" width=24px height=24px alt="Your profile photo">
+        <span class="username">Samuel Blythe</span>
+      </div>
+      <div class="greeting">
+        <img src="img/profile.png" class="profile_photo" width=64px height=64px alt="Your profile photo">
+        <span>Hi there,</span>
+        <span class="username">Samuel Blythe</span>
+      </div>
+      <ul class="action_buttons">
+        <li><button>New</button></li>
+        <li><button>Upload</button></li>
+        <li><button>Share</button></li>
+      </ul>
+    </header>
+    <div id="sidebar">
+      <img width="40px" src="svg/logo.svg" class="svg_icon">
+      <span id="title">XYZ Dashboard</span>
+      <ul>
+        <li>
+          <img width="20px" src="svg/home.svg" class="svg_icon">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/profile.svg" class="svg_icon">
+          <a href="#">Profile</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/messages.svg" class="svg_icon">
+          <a href="#">Messages</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/history.svg" class="svg_icon">
+          <a href="#">History</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/tasks.svg" class="svg_icon">
+          <a href="#">Tasks</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/communities.svg" class="svg_icon">
+          <a href="#">Communities</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/settings.svg" class="svg_icon">
+          <a href="#">Settings</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/support.svg" class="svg_icon">
+          <a href="#">Support</a>
+        </li>
+        <li>
+          <img width="20px" src="svg/privacy.svg" class="svg_icon">
+          <a href="#">Privacy</a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div class="projects">
+        <h3>Projects</h3>
+        <div class="projects_grid">
+          <div class="project_card card">
+            <h4 class="project_title">The Odin Project</h4>
+            <p class="project_body">The full-stack web development project that will put my career back on the right path</p>
+            <div class="project_card_buttons">
+              <img src="svg/star.svg" class="svg_icon" width=20px>
+              <img src="svg/eye.svg" class="svg_icon" width=20px>
+              <img src="svg/fork.svg" class="svg_icon" width=20px>
+            </div>
+          </div>
+          <div class="project_card card">
+            <h4 class="project_title">HOME Desktop</h4>
+            <p class="project_body">A keyboard-first desktop environment for Linux and FreeBSD</p>
+            <div class="project_card_buttons">
+              <img src="svg/star.svg" class="svg_icon" width=20px>
+              <img src="svg/eye.svg" class="svg_icon" width=20px>
+              <img src="svg/fork.svg" class="svg_icon" width=20px>
+            </div>
+          </div>
+          <div class="project_card card">
+            <h4 class="project_title">Java Bomberman</h4>
+            <p class="project_body">Bomberman fangame written in Java!</p>
+            <div class="project_card_buttons">
+              <img src="svg/star.svg" class="svg_icon" width=20px>
+              <img src="svg/eye.svg" class="svg_icon" width=20px>
+              <img src="svg/fork.svg" class="svg_icon" width=20px>
+            </div>
+          </div>
+          <div class="project_card card">
+            <h4 class="project_title">Metroid2D</h4>
+            <p class="project_body">My very first serious endeavor: a Metroid fangame (ported from Java to C#). Now with a 2-player co-op mode!</p>
+            <div class="project_card_buttons">
+              <img src="svg/star.svg" class="svg_icon" width=20px>
+              <img src="svg/eye.svg" class="svg_icon" width=20px>
+              <img src="svg/fork.svg" class="svg_icon" width=20px>
+            </div>
+          </div>
+          <div class="project_card card">
+            <h4 class="project_title">Bastill</h4>
+            <p class="project_body">The operating system I dreamed about creating when I was 7 years old</p>
+            <div class="project_card_buttons">
+              <img src="svg/star.svg" class="svg_icon" width=20px>
+              <img src="svg/eye.svg" class="svg_icon" width=20px>
+              <img src="svg/fork.svg" class="svg_icon" width=20px>
+            </div>
+          </div>
+          <div class="project_card card">
+            <h4 class="project_title">Sinistar</h4>
+            <p class="project_body">My recreation of the 1988 arcade game "SINISTAR" done in Java</p>
+            <div class="project_card_buttons">
+              <img src="svg/star.svg" class="svg_icon" width=20px>
+              <img src="svg/eye.svg" class="svg_icon" width=20px>
+              <img src="svg/fork.svg" class="svg_icon" width=20px>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="announcements">
+        <h3>Announcements</h3>
+        <div class="announcements_grid card">
+          <ul>
+            <li class="announcement">
+              <h4 class="announcement_title">Site Maintenance</h4>
+              <p class="announcement_body">
+                TOP Admin Dashboard will be down for maintenance between 1 AM and 2 AM GMT on Tuesday, May 28.
+              </p>
+            </li>
+            <hr>
+            <li class="announcement">
+              <h4 class="announcement_title">Big News!</h4>
+              <p class="announcement_body">
+                Big news! Big things are coming to TOP Admin Dashboard and you won't want to miss them. Stay tuned for information on the big things that will change your life! These new features will rock your world!
+              </p>
+            </li>
+            <hr>
+            <li class="announcement">
+              <h4 class="announcement_title">May 2024 Best Projects</h4>
+              <p class="announcement_body">
+                As the month of May wraps up, we've compiled a list of the top trending projects of the month (based on stars, forks, and watches). Check out this list here!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="trending">
+        <h3>Trending</h3>
+        <div class="trending_grid card">
+          <div class="trending_item">
+            <a href="#" class="trending_item_profile">
+              <img src="img/profile.png" class="profile_photo" width=24px>
+            </a>
+            <a href="#">@samuelb</a>
+            <a href="#">The Odin Project</a>
+          </div>
+          <div class="trending_item">
+            <a href="#" class="trending_item_profile">
+              <img src="img/profile2.png" class="profile_photo" width=24px>
+            </a>
+            <a href="#">@justin</a>
+            <a href="#">The Odin Project</a>
+          </div>
+          <div class="trending_item">
+            <a href="#" class="trending_item_profile">
+              <img src="img/profile3.png" class="profile_photo" width=24px>
+            </a>
+            <a href="#">@paule</a>
+            <a href="#">The Odin Project</a>
+          </div>
+          <div class="trending_item">
+            <a href="#" class="trending_item_profile">
+              <img src="img/profile.png" class="profile_photo" width=24px>
+            </a>
+            <a href="#">@samuelb</a>
+            <a href="#">HOME Desktop</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

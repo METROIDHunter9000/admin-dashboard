@@ -214,6 +214,7 @@ main > div {
   height: 30ch;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
+  border-left: 14px solid rgb(20, 180, 200);
 }
 
 .project_card_buttons {
